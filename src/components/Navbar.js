@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light mb-4">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light mb-0">
         <div className="container-fluid">
             <a className="navbar-brand" to="/">Taurine</a>
             <div className="collapse navbar-collapse">

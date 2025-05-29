@@ -8,12 +8,14 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import HeroSection from './components/HeroSection';
 
 function App() {
   return (
     <Router>
         <div className="container-fluid p-0">
             <Navbar />
+            <HeroSection />
         </div>
         <div className="container-fluid">    
             <div class="row">
@@ -26,8 +28,7 @@ function App() {
                         <Route path="/contact" element={<Contact />} />
                     </Routes>
                 </div>    
-            </div>
-            
+            </div>    
         </div>
         <Footer />
     </Router>
